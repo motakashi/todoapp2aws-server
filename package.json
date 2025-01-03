@@ -1,0 +1,26 @@
+{
+  "name": "todoapp2aws-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.2",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.4",
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2"
+  }
+}
